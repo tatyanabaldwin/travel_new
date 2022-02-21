@@ -1,0 +1,141 @@
+@charset "UTF-8";
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(travel_images/travel_header-01.png);
+}
+/*Float main so it will line up with the Aside. Reduce size by 150px so they will line up*/
+main {
+    width: 578px;
+    height: 1600px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/*Clear the float on the footer so that it shows up in the right place*/
+footer {
+    background-color: #EBBBD7;
+    width: 768px;
+    height: 50px;
+    float: none;
+    clear: both;
+}
+body {
+    background-size: cover;
+    background-image: url(travel_images/teal_option1.jpg);
+}
+/*Float Aside to get main to sit next to it*/
+aside {
+    width: 150px;
+    height: 1700px;
+    background-color: #C1B59A;
+    float: left;
+}
+
+h1{
+    color: #603713;
+    font-family: signo,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #3E2208;
+}
+
+p{
+    font-family: signo, sans-serif;
+    font-weight: 400;
+    font-style: normal;	
+}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft{
+	float: left;
+	
+}
+article {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    font-family: giddyup-std, sans-serif;
+    margin: 0px 0px 0px 0px;
+    font-size: 24px;
+}
+#container nav ul {
+    margin: auto;
+    width: 350px;
+	padding-top: 20px;
+}
+
+nav a:link {
+    color: #603713;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #DB7FB4;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#C1B59A;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color:#603713;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #EBBBD7;
+    color: #14A89E;
+   
+}
+
+.submit_btn:hover{
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+li{
+	font-family: signo, sans-serif;
+}
+
+table{
+	font-family: signo, sans-serif;
+}
